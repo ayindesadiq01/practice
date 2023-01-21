@@ -38,8 +38,12 @@ body {
 } */
 .pics {
   width: 100%;
-    border-top-right-radius: 10px;
-      border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  height: 100%;
+  opacity: 0.5;
+  object-fit: cover;
+  object-position: center;
 }
 /* TYPOGRAPHY */
 .headline {
@@ -76,6 +80,7 @@ span {
   }
   .container{
     margin: 2em auto;
+    min-height: 100vh;
     padding: 0;
     background-color: rgb(63, 7, 116);
     flex-direction: column;
